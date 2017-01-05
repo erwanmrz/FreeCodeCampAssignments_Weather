@@ -63,7 +63,7 @@ $(document).ready(function() {
         $("#temperature").html(json2TempC.toFixed(1) + " °C");
 
         // change background image according to weather
-        var json2Id = 800;
+        var json2Id = json2.weather[0].id;
         //CLEAR
         if (json2Id === 800) {
           $("body").css("background-image", "url(http://static.flickr.com/45/152334599_6ee192a4d1_o.jpg)")
