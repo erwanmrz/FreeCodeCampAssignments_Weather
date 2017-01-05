@@ -1,0 +1,77 @@
+body {
+  font-family: Century Gothic;
+  background-color: black;
+  color: white;
+  background-size: cover;
+}
+
+header {
+  font-family: Verdana;
+  font-size: 60px;
+  background-color: rgba(112, 128, 144, 0.5);
+  margin-top: 60px;
+  color: lightGrey;
+}
+
+.fa-cloud {
+  color:lightBlue;
+}
+
+.fa-sun-o {
+  color: yellow;
+  font-size: 60px;
+}
+
+section {
+  background-color: rgba(112, 128, 144, 0.5);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#locationUser {
+  font-size: 48px;
+}
+
+#description {
+  font-size: 36px;
+}
+
+.clouds {
+  height: 10%;
+  width: 10%;
+}
+
+#temperature {
+  font-size: 72px;
+}
+
+.btn {
+  margin: 20px;
+  font-size: 16px;
+}
+
+.signature {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-size: 24px;
+}
+
+.codepenLink:link {
+  text-decoration: none;
+  color: white;
+}
+
+.codepenLink:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.codepenLink:active {
+  text-decoration: none;
+  color: white;
+}
+
+.codepenLink:visited {
+  text-decoration: none;
+  color: white;
+}
